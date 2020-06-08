@@ -1,0 +1,26 @@
+{
+  "name": "Hello Football",
+  "short_name": "HF App",
+  "description": "Hello Football App",
+  "theme_color": "#1aa5aa",
+  "background_color": "#4ecfff",
+  "display": "standalone",
+  "start_url": "/index.html",
+  "gcm_sender_id": "516877005149",
+  "icons": [{
+      "src": "/icon/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

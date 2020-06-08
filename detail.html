@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Football</title>
+    <meta name="description" content="Free Football Apps" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1aa5aa">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Start Navigation -->
+    <nav class="lime darken-2" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="/" class="brand-logo" id="logo-container"><b>Hello</b> Football</a>
+            <span>
+                <button onclick="history.back()" class="btn-flat white-text sidenav-trigger" data-target="nav-mobile">
+                    <i class="material-icons">arrow_back</i>
+                </button>
+            </span>
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+
+    <div class="container" id="body-content"></div>
+
+    <!-- Tombol untuk menyimpan ke Indexed DB -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red" id="save">
+            <i class="large material-icons">save</i>
+        </a>
+        <a class="btn-floating btn-large red" id="delete">
+            <i class="large material-icons">delete</i>
+        </a>
+    </div>
+
+    <script type="text/javascript" src="https://unpkg.com/snarkdown@1.0.2/dist/snarkdown.umd.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/sw_detail.js"></script>
+</body>
+
+</html>
